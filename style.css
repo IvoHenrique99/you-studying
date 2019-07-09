@@ -1,0 +1,270 @@
+body{
+    margin: 0px;  
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+header {
+    align-items: center;
+    background-color:#FFA07A;
+    box-shadow: 0 0 7px #333333;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+header img {
+    height: 50px;
+    width: 50px;
+}
+header .title {
+    align-items: center;
+    color:aliceblue;
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header nav{
+    margin-right: 30px;
+}
+header nav a{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.1rem;
+    margin: 10px;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: #333333;
+}
+
+
+
+
+
+
+.div-geral{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 0%;
+}
+
+#p-n{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+
+.active {
+    background-color: #fbd80a;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.firstbotao{
+    background-color: #fbd80a;
+    border: 4px solid rgb(255, 255, 255) ;
+    margin: 5px;
+    font-size: 20px;
+    color: #808080;
+    
+    
+    
+}
+/*-------------------- PARTE 1  -----------------*/
+
+.div-esquerda{
+    margin: 0px;
+    width: 15%;
+}
+.div-esquerda .article-esquerda{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px #333333;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    
+    margin-left:3%;
+}
+.article-esquerda div {
+    margin-bottom: 5px;
+}
+#circle{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+#circle div {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+#circle img {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+.dados-aluno{
+    display: flex;
+    flex-direction: column;
+    
+}
+.h2-esquerda{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #333333;
+    color: #f2f2f2;
+    width: 100%;
+    
+}
+#table-faltas{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 98%;
+    margin-left: 1px;  
+    margin-top: 10px;
+    
+}
+
+#table-faltas th{
+    background-color:#D3D3D3;
+    color:black;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid #696969;
+    
+}
+#table-faltas td{
+    border-bottom: 1px solid #696969;
+    
+} 
+
+ul {
+    display: inline-block;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*-------------------- PARTE 2  -----------------*/
+
+
+.div-central{
+    width: 60%;
+    align-content: center;
+    margin: 0%;
+    
+}
+
+.div-central img{
+    width: 100px;
+    
+}
+
+.article-central{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 560px;
+    box-shadow: 0 0 15px #333333;
+    border-radius: 10px;
+    margin-bottom:50px;
+    
+}
+.h2-central{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: #333333;
+    color: beige;
+    border-radius: 10px 10px 0px 0px;     
+}
+.h2-central h2{
+    margin-top: 10px;
+}
+.sec_tx_1{
+    
+    box-shadow: 0 0 15px #333333;
+    width: 75%;
+    height: 300px;
+    margin: 20px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.sec_tx_1 .title{
+    background-color: #fbd80a;
+    color: #333;
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+    
+}
+.sec_tx_1 .text{
+    margin: 60px;
+    font-size: 20px;
+}
+
+/*-------------------- PARTE 3  -----------------*/
+
+.div-direita{
+    margin: 0px;
+    margin-right:10px;
+    width: 20%;
+}
+.article-direita{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px #333333;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 7px;
+    height: 300px;
+}
+
+.h2-direita{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #333333;
+    color: #f2f2f2;
+    width: 100%;
+}
+.div-direita video{
+    margin: 8px;
+    width: 90%;
+    
+}
+.div_video{
+    align-items: center;
+    margin: 10px;
+}
